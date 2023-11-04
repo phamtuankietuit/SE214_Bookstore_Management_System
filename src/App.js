@@ -1,10 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import List from './Components/List'
 
 function App() {
   return (
-    <div className="App">
-      learn react
+    <div
+      className="App"
+      style={{
+        backgroundColor: '#E9ECEF',
+        padding: 20,
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'flex-end',
+      }}
+    >
+      <List />
     </div>
   );
 }
