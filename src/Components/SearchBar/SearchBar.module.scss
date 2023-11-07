@@ -1,10 +1,10 @@
 // Container
 .search-bar {
-    border: 1px solid #D0D5DD;
+    border: 1px solid var(--border-color);
     border-radius: 5px;
     padding: 10px;
 
-    color: #D0D5DD;
+    color: var(--border-color);
     flex: 1;
 
     display: flex;
