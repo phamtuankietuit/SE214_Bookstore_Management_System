@@ -1,0 +1,32 @@
+.id-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.product-img {
+    min-height: 50px;
+    min-width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    margin-right: 10px;
+}
+
+.product-id-name {
+    font-size: 1.6rem;
+    font-family: inherit;
+    
+    .product-id {
+        font-weight: bold;
+        margin-bottom: 2px;
+    }
+
+    .product-name {
+
+    }
+}

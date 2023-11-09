@@ -4,19 +4,9 @@
     background-color: white;
     border-radius:  16px;
     padding: 20px;
-
-    // 
-    margin-top: 150px;
-}
-
-
-.inner {
 }
 
 .search-filter-container {
-    height: 44px;
-    margin-bottom: 20px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,15 +14,4 @@
     .search-bar {
         flex: 1;
     }
-}
-
-.table-container {
-    height: 348px;
-    background-color: #ccc;
-    margin-bottom: 20px;
-}
-
-.pagination-container {
-    height: 44px;
-    background-color: #ccc;
 }

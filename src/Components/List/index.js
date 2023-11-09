@@ -1,8 +1,11 @@
 import classNames from 'classnames/bind';
+import { useState } from 'react';
+
 import styles from './List.module.scss';
 import SearchBar from '../SearchBar';
 import Filter from '../Filter';
-import { useState } from 'react';
+import Table from '../Table';
+
 
 const cx = classNames.bind(styles);
 
@@ -12,7 +15,6 @@ function List() {
 
     const [input, setInput] = useState('');
 
-    // console.log('List re-render');
 
     return (
         <div className={cx('wrapper')}>
@@ -29,10 +31,7 @@ function List() {
 
                 </div>
                 <div className={cx('table-container')}>
-                    <h1>{input}</h1>
-                </div>
-                <div className={cx('pagination-container')}>
-
+                    <Table />
                 </div>
             </div>
         </div >
