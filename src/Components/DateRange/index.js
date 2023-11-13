@@ -56,6 +56,7 @@ function DateRange() {
                                 fromYear={1800}
                                 toDate={new Date()}
                                 showOutsideDays
+                            // numberOfMonths={2}
                             />
                         </div>
                     </div>

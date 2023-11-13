@@ -6,6 +6,7 @@ const cx = classNames.bind(styles);
 export const ProductItem = [
     {
         name: 'Mã sản phẩm',
+        sortable: true,
         selector: row => (
             <div
                 key={row.id}
